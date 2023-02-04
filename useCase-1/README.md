@@ -20,7 +20,7 @@ Save dataframe as a parquet file with partition on ‘script_name’ column in o
 
 Process 4 -
 Read data in spark dataframe from standardized in parquet mode.
-Add new column week_num to dataframe and populate values according to respective week number of year
+Add new column week_num to dataframe and populate values according to respective week number of year.
 Aggregate data according to script name and week of the year and generate insightful report in spark’s dataframe.
 Move older files to archive by appending current date to folder name.
 Save dataframe to csv in the outbound folder.
