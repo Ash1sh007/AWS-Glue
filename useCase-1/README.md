@@ -3,7 +3,7 @@ AWS Glue useCase-1
 Purpose: 
 This program is developed to process the files of multiple formats(xls/csv) and provide useful insights in a summarized weekly report format.
 
-Process flow & Breif:
+Process flow & Brief:
 Process 1 -
 Checks files if present in the Inbound folder. If xls file is present then convert it to csv format using pandas dataframe and save at same location.
 If required files are present in the folder then copy all the files( source files & check files) to pre-processed files.
